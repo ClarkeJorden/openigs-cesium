@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{867D10DC-262E-36C3-BD47-E33A61541064}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\source\2019\sources\openigs-cesium;D:\source\2019\sources\openigs-cesium\packages\czmnetwork;D:\source\2019\sources\openigs-cesium\packages\czmopensky;D:\source\2019\sources\openigs-cesium\packages\czmxplane;D:\source\2019\installx64\include;D:\source\2019\sources\win64-vc14\boost_1_62_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\source\2019\sources\openigs-cesium;D:\source\2019\sources\openigs-cesium\packages\czmnetwork;D:\source\2019\sources\openigs-cesium\packages\czmopensky;D:\source\2019\sources\openigs-cesium\packages\czmxplane;D:\source\2019\installx64\include;D:\source\2019\sources\win64-vc14\boost_1_62_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\source\2019\sources\openigs-cesium;D:\source\2019\sources\openigs-cesium\packages\czmnetwork;D:\source\2019\sources\openigs-cesium\packages\czmopensky;D:\source\2019\sources\openigs-cesium\packages\czmxplane;D:\source\2019\installx64\include;D:\source\2019\sources\win64-vc14\boost_1_62_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\source\2019\sources\openigs-cesium;D:\source\2019\sources\openigs-cesium\packages\czmnetwork;D:\source\2019\sources\openigs-cesium\packages\czmopensky;D:\source\2019\sources\openigs-cesium\packages\czmxplane;D:\source\2019\installx64\include;D:\source\2019\sources\win64-vc14\boost_1_62_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\source\2019\sources\openigs-cesium\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/source/2019/sources/openigs-cesium/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/source/2019/sources/openigs-cesium -BD:/source/2019/buildx64/openigs-cesium --check-stamp-file D:/source/2019/buildx64/openigs-cesium/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeSystem.cmake;D:\source\2019\buildx64\openigs-cesium\timestamp.c;D:\source\2019\installx64\share\openigs\cmake\BoostAddTest.cmake;D:\source\2019\installx64\share\openigs\cmake\FindOpenIGS.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSBuildCommands.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSInitialize.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSModule.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSPlatform.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSSetupBoost.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSSetupDoxygen.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSUtils.cmake;D:\source\2019\installx64\share\openigs\cmake\Precompile.cmake;D:\source\2019\sources\openigs-cesium\CesiumModulesPackage.cmake;D:\source\2019\sources\openigs-cesium\saccadesVersions.cmake;D:\source\2019\sources\openigs-cesium\share\openigs\cmake\SetupOpenIGS.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\source\2019\buildx64\openigs-cesium\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/source/2019/sources/openigs-cesium/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/source/2019/sources/openigs-cesium -BD:/source/2019/buildx64/openigs-cesium --check-stamp-file D:/source/2019/buildx64/openigs-cesium/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeSystem.cmake;D:\source\2019\buildx64\openigs-cesium\timestamp.c;D:\source\2019\installx64\share\openigs\cmake\BoostAddTest.cmake;D:\source\2019\installx64\share\openigs\cmake\FindOpenIGS.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSBuildCommands.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSInitialize.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSModule.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSPlatform.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSSetupBoost.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSSetupDoxygen.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSUtils.cmake;D:\source\2019\installx64\share\openigs\cmake\Precompile.cmake;D:\source\2019\sources\openigs-cesium\CesiumModulesPackage.cmake;D:\source\2019\sources\openigs-cesium\saccadesVersions.cmake;D:\source\2019\sources\openigs-cesium\share\openigs\cmake\SetupOpenIGS.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\source\2019\buildx64\openigs-cesium\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/source/2019/sources/openigs-cesium/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/source/2019/sources/openigs-cesium -BD:/source/2019/buildx64/openigs-cesium --check-stamp-file D:/source/2019/buildx64/openigs-cesium/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeSystem.cmake;D:\source\2019\buildx64\openigs-cesium\timestamp.c;D:\source\2019\installx64\share\openigs\cmake\BoostAddTest.cmake;D:\source\2019\installx64\share\openigs\cmake\FindOpenIGS.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSBuildCommands.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSInitialize.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSModule.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSPlatform.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSSetupBoost.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSSetupDoxygen.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSUtils.cmake;D:\source\2019\installx64\share\openigs\cmake\Precompile.cmake;D:\source\2019\sources\openigs-cesium\CesiumModulesPackage.cmake;D:\source\2019\sources\openigs-cesium\saccadesVersions.cmake;D:\source\2019\sources\openigs-cesium\share\openigs\cmake\SetupOpenIGS.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\source\2019\buildx64\openigs-cesium\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/source/2019/sources/openigs-cesium/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/source/2019/sources/openigs-cesium -BD:/source/2019/buildx64/openigs-cesium --check-stamp-file D:/source/2019/buildx64/openigs-cesium/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindBoost.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\InstallRequiredSystemLibraries.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.15\Templates\CPackConfig.cmake.in;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\source\2019\buildx64\openigs-cesium\CMakeFiles\3.15.3\CMakeSystem.cmake;D:\source\2019\buildx64\openigs-cesium\timestamp.c;D:\source\2019\installx64\share\openigs\cmake\BoostAddTest.cmake;D:\source\2019\installx64\share\openigs\cmake\FindOpenIGS.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSBuildCommands.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSInitialize.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSModule.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSPlatform.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSSetupBoost.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSSetupDoxygen.cmake;D:\source\2019\installx64\share\openigs\cmake\IGSUtils.cmake;D:\source\2019\installx64\share\openigs\cmake\Precompile.cmake;D:\source\2019\sources\openigs-cesium\CesiumModulesPackage.cmake;D:\source\2019\sources\openigs-cesium\saccadesVersions.cmake;D:\source\2019\sources\openigs-cesium\share\openigs\cmake\SetupOpenIGS.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\source\2019\buildx64\openigs-cesium\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\ZERO_CHECK.vcxproj">
+      <Project>{91EE36CA-4B0B-3063-92EE-70AD4B8FEB7C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmxplane\saccades\xplane\XPLServerPlugin.vcxproj">
+      <Project>{0F6CAB67-99F7-33ED-A036-A4DB704216CE}</Project>
+      <Name>XPLServerPlugin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmopensky\czm\atc\czmatc.vcxproj">
+      <Project>{D857D2A4-27B8-340C-81FC-8AC2C4B854D9}</Project>
+      <Name>czmatc</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmopensky\apps\czmatcapp\czmatcapp.vcxproj">
+      <Project>{9DC9622B-9913-3D9B-B9BB-D59EEF5A3A4A}</Project>
+      <Name>czmatcapp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmopensky\czm\modules\atc\czmatcmodules.vcxproj">
+      <Project>{5E39DA1D-30BC-3545-8D45-275153F0DBAB}</Project>
+      <Name>czmatcmodules</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmopensky\czm\aviation\czmaviation.vcxproj">
+      <Project>{17D110CE-979B-3E83-983C-C26E51538107}</Project>
+      <Name>czmaviation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmopensky\czm\modules\aviation\czmaviationmodules.vcxproj">
+      <Project>{6A0A40B4-1C93-3ADC-8B45-6849072B0542}</Project>
+      <Name>czmaviationmodules</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmnetwork\apps\czmcpprestapp\czmcpprestapp.vcxproj">
+      <Project>{B9269782-CCE7-3960-A5C6-F88F70122D3E}</Project>
+      <Name>czmcpprestapp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmnetwork\czm\curl\czmcurl.vcxproj">
+      <Project>{1B5AFC56-B208-3FAC-8DB1-CFE801960466}</Project>
+      <Name>czmcurl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmnetwork\czm\modules\curl\czmcurlmodules.vcxproj">
+      <Project>{8F7E8766-B8C1-3841-BC96-EDCDFA306EA8}</Project>
+      <Name>czmcurlmodules</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmopensky\czm\opensky\czmopensky.vcxproj">
+      <Project>{E85667A8-800D-3CD2-B3B3-2CCAC3F71064}</Project>
+      <Name>czmopensky</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmopensky\czm\modules\opensky\czmopenskymodules.vcxproj">
+      <Project>{29C0BF1D-195D-3F78-A49E-0AC5F28DE045}</Project>
+      <Name>czmopenskymodules</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmnetwork\czm\qtnetwork\czmqtnetwork.vcxproj">
+      <Project>{66C907F0-2D6D-366B-867C-91B08B0FF510}</Project>
+      <Name>czmqtnetwork</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmnetwork\czm\modules\qtnetwork\czmqtnetworkmodules.vcxproj">
+      <Project>{05815572-973F-33C3-B493-7CC50A69283A}</Project>
+      <Name>czmqtnetworkmodules</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmnetwork\czm\rest\czmrest.vcxproj">
+      <Project>{F2EA7134-09DD-3431-B473-CC7927AA04B9}</Project>
+      <Name>czmrest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmnetwork\czm\modules\rest\czmrestmodules.vcxproj">
+      <Project>{B4A02388-608B-3991-88A7-BEE2740BFDE9}</Project>
+      <Name>czmrestmodules</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\source\2019\buildx64\openigs-cesium\packages\czmxplane\saccades\xplane\czmxplane.vcxproj">
+      <Project>{A2969AE2-2CC6-37A8-9537-014C4891AD78}</Project>
+      <Name>czmxplane</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

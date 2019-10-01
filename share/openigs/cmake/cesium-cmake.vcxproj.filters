@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\CURLConfig.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\CURLConfigVersion.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\CURLTargets-debug.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\CURLTargets-release.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\CURLTargets.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\FindEuroSim.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\FindQwt.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\FindWindowsSDK.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\FindXPlane.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\FindXalanC.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\FindXercesC.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupEuroSim.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupOSG.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupOpenGL.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupPNG.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupQt.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupQwt.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupTIFF.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupWindowsSDK.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupXPlane.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupXalan.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupXerces.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\IGSSetupZLib.cmake">
+      <Filter>CMake</Filter>
+    </None>
+    <None Include="D:\source\2019\sources\openigs-cesium\share\openigs\cmake\SetupOpenIGS.cmake">
+      <Filter>CMake</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake">
+      <UniqueIdentifier>{6C038F6C-354C-33A3-BC65-2982D9FE9995}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
